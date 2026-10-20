@@ -1,0 +1,21 @@
+{
+  "signatures": {
+    "aKG": {
+      "label": "alpha-ketoglutarate-associated signature",
+      "buckets": ["B2_4690", "B2_4757", "B2_4860", "B2_4930", "B2_5020"]
+    },
+    "GSH": {
+      "label": "GSH-associated (candidate) signature",
+      "buckets": ["B2_1432", "B2_1484", "B2_1546", "B2_1615", "B2_1688", "B2_1744", "B2_1796"]
+    }
+  },
+  "proxy": {
+    "name": "proxy",
+    "label": "downstream glutaminolysis-associated metabolic proxy",
+    "members": ["aKG", "GSH"]
+  },
+  "diagnostics": {
+    "second_resonance_buckets": {"aKG": ["B3_0216"]},
+    "second_resonance_ppm": {"GSH": {"Glu_gamma_2.55": 2.55, "Cys_beta_2.97": 2.97, "Cys_alpha_4.56": 4.56}}
+  }
+}

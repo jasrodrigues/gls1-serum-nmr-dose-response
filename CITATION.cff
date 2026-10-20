@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the accompanying article and this repository."
+title: "gls1dr: dose-response analysis of serum 1H-NMR signatures and a reduced GSH-ROS model after GLS1 therapy"
+type: software
+version: 1.0.0
+# TODO (authors): replace by the people who wrote and maintain the code, and add the repository URL, DOI and date.
+authors:
+  - name: "Authors of Martins et al. (2026)"
+license: MIT
+references:
+  - type: article
+    title: "Glutaminase 1 (GLS1)-based systemic therapy decreases blood glutamine availability and impairs glutamine-dependent metabolism in glioblastoma (GBM)"
+    authors:
+      - name: "Martins F, et al."
+    year: 2026
+    notes: "TODO (authors): journal, volume, pages and DOI once published."
